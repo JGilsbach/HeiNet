@@ -1,0 +1,5 @@
+This repository provides the R Code for the RSiena models as well as ERGM, Bayesian ERGM and temporal ERGM I ran to archive my results.
+It also provides the results of the gof analysis. Please note that the fit statistics were compromised to a ceratin degree and p> 0 was accepted if this allowed me
+to use a more similar model.
+This is for comparability of the TERGM and SAOM analysis as well as the models ran on the data imputed with different imputation mechanisms to a ceratin degree
+and p> 0 was accepted if this allowed me to use a more similar or the same model specification.
