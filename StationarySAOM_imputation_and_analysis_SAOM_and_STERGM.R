@@ -346,7 +346,7 @@ for (i in 1:D) {
   
   estimation.options <- sienaAlgorithmCreate(useStdInits = FALSE, seed = 312,
                                              n3 = 1000, maxlike = FALSE, cond = FALSE,
-                                             lessMem = FALSE) #cond = FALSE wasn't used in Kause (2019) but otherwise the rate parameter is separated in the output
+                                             lessMem = FALSE) #cond = FALSE wasn't used in Krause (2019) but otherwise the rate parameter is separated in the output
   if (i == 1) {
     saomResults[[i]] <- siena07ToConvergence(alg = estimation.options,
                                              dat = Data, eff = effectsData,
